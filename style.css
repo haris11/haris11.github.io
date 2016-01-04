@@ -1,0 +1,55 @@
+body{background: url(images/bg.gif) repeat fixed 0% 0%;margin:0;padding:0;letter-spacing: 1px;font: 85%/160% arial, helvetica, sans-serif;}
+
+#maincontainer{width: 840px;margin: 0 auto;border-left: 1px solid #838383;border-right: 1px solid #838383;background: #9a9a9a url(images/bg_left.jpg) repeat-x 0% 110px;}
+
+#header{background: white url(images/bg_header.jpg) no-repeat 0% 0%;height: 200px;}
+
+#header h1{margin: 0;padding-top: 15px;color: #ccc;font-size: 197%;}
+
+.headertext {padding: 0 15px;}
+
+#navtop ul{background: url(images/bg_navtop.jpg) repeat-x 0% 0%;padding-left: 0;margin: 0;background-color: #036;color: #fff;float: right;width: 100%;border-bottom: 1px solid #838383;}
+
+#navtop ul li{display: inline;}
+
+#navtop ul li a{font-size: 92%;margin-top: 2px;padding: 0 1em;color: #fff;text-decoration: none;float: right;border-left: 1px solid #bcbcbc;line-height: 200%;outline:none;font-weight: bold;}
+
+#navtop ul li a:hover{background-color: #838383;color: #fff;}
+
+#wrapper{float: left;width: 100%;}
+
+#contentcolumn{background: #fff url(images/bg_main.jpg) no-repeat -200px -25px;font-size: 92%;margin-left: 200px; min-height: 800px;}
+
+h1,h2,h3,h4,h5,h6 {font-family: trebuchet ms, arial, helvetica, sans-serif;letter-spacing: 1px;font-style: oblique;}
+
+h1,h2,h3{font-size: 152%;color: #336699;font-weight: normal;margin-top: 0;}
+
+h4,h5,h6{font-size: 136%;color: #000;font-weight: normal;border-bottom: 1px solid #000;}
+
+a,a:link,a:active,a:visited {color: #3333cc;font-weight: bold;text-decoration: underline;outline:none;}
+
+a:hover {color: #336699;text-decoration: none;}
+
+* html #contentcolumn {height:800px}
+
+.maintext {padding: 20px;}
+
+#leftcolumn{float: left;width: 200px;margin-left: -840px;min-height: 800px;}
+
+* html #leftcolumn {height:800px} 
+
+#navleft{padding-left: 0;margin: 0;width: 200px;}
+
+* html #navleft a {width: 100%;}
+
+#navleft li{list-style: none;margin: 0;}
+
+#navleft li a {font-size: 92%;line-height: 260%;text-indent: 6px;text-decoration: none;display: block;outline:none;border-top: 1px solid #fff;border-bottom: 1px solid #000;color: #000;font-weight: bold;}
+
+#navleft li a:hover {background-color: #ccc;color: #336699;text-decoration: none;}
+
+.boxleft {font-size: 85%;line-height: 140%;background: #fff url(images/bg_box.gif) repeat 0% 0%;border: 1px solid #000;width: 166px;margin: 10px 0 0 10px;padding: 6px;color: #336699;}
+
+#footer{font-size: 76%;clear: left;width: 100%;text-align: center;padding: 4px 0;color: #fff;font-weight: normal;}
+
+#footer a {color: #f1f1da;}
